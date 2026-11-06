@@ -453,8 +453,11 @@ elif pagina == "💵 Registrar pago":
                         f"por ${monto:,.0f}"
                     )
 
+    
+
                 except Exception as e:
 
+                    st.error(f"Error: {e}")
 
 # hice consultas para mostrar
 # habitaciones disponibles y reservas usando JOIN entre tablas. Después agregué
